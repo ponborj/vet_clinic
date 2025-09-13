@@ -113,7 +113,7 @@ class ClientController extends Controller
         // set client encontrato, deleta o client e manda pra index com msg de sucesso
         if (isset($client)) {
             $client->delete();
-            return redirect()->route('client.index')->with('success', 'Client deleted successfully.');
+            return redirect()->route('/')->with('success', 'Client deleted successfully.');
         }
 
         // se não encontrou, manda pra index com msg de erro
