@@ -18,7 +18,7 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Vet Clinic</a>
+                <a class="navbar-brand" href="{{ route('home') }}">Vet Clinic</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -29,10 +29,10 @@
                             <a class="nav-link" aria-current="page" href="{{ route('home') }}">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('client.index') }}">Client</a>
+                            <a class="nav-link" href="{{ route('client.index') }}">Clients</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">#</a>
+                            <a class="nav-link" href="{{ route('pet.index') }}">Pets</a>
                         </li>
                     </ul>
                 </div>
