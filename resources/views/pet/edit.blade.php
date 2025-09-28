@@ -79,7 +79,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="observations">Observações</label>
-                                    <textarea class="form-control" id="observations" name="obeservations">{{ $pet->observations }}</textarea>
+                                    <textarea class="form-control" id="observations" name="observations">{{ $pet->observations }}</textarea>
                                 </div>
                                 <br>
                                 <div class="box-footer">

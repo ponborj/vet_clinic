@@ -19,6 +19,12 @@
                                         oninvalid="this.setCustomValidity('Please, fill out this field')"
                                         onchange="try{setCustomValidity('')}catch(e){}">
                                 </div>
+                                
+                                <div class="form-group">
+                                    <label for="client_pet">Cliente:</label>
+                                    <input type="text" class="form-control" id="client_pet" name="client_pet"
+                                        onkeydown="return false;" required>
+                                </div>
                                 <div class="form-group">
                                     <label for="photo">Photo</label>
                                     <input type="file" class="form-control" id="photo" name="photo">
